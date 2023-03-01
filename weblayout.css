@@ -65,3 +65,17 @@ img {
     padding: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .topnav {
+        float: none;
+        width: 100%;
+    }
+}
