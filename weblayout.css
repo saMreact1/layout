@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #d1cfcf;
+    padding: 10px;
+    margin: 0;
+}
+.header {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header h1 {
+    font-size: 50px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+.topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+.topnav a:last-child {
+    float: right;
+}
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+.card {
+    margin: 10px;
+    padding: 15px;
+    background-color: white;
+}
+.rightcolumn {
+    float: left;
+    width: 75%;
+}
+.leftcolumn {
+    width: 25%;
+    float: right;
+}
+img {
+    width: 100%;
+}
+.rightcolumn img {
+    height: 400px;
+}
+.leftcolumn img {
+    height: 150px;
+}
+.row {
+    
+    display: table;
+    
+}
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    background: #787676;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
