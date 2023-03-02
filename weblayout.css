@@ -23,6 +23,7 @@ body {
     text-align: center;
     text-decoration: none;
     padding: 14px 16px;
+    color: antiquewhite;
 }
 .topnav a:last-child {
     float: right;
@@ -66,11 +67,21 @@ img {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 828px) {
     .leftcolumn, .rightcolumn {
         width: 100%;
         padding: 0;
     }
+
+    .topnav {
+        overflow: hidden;
+        background-color: black;
+    }
+    .topnav a {
+        padding: 10px 12px;
+        font-size: 10px;
+    }
+    
 }
 
 @media screen and (max-width: 400px) {
